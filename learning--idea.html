@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<title>YI-SHUAN - 創意思考</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+	<link rel="icon" type="image/x-icon" href="images/favicon.png" />
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<link rel="stylesheet" href="css/OwlCarousel2-2.2.1/owl.carousel.css">
+	<link rel="stylesheet" href="css/component.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<div class="wrapper">
+		<!-- start bg -->
+		<div class="bgbox">
+			<div class="bg--base"></div>
+			<div id="bg--hover" class="bg"></div>
+		</div>
+				
+		<!-- start header -->
+		<header>
+			<div class="navbar js-navbar">
+				<div class="container">
+					<a href="#overlay" class="menu-toggle" onclick="toggle()">
+						<span></span>
+						<span></span>
+						<span></span>
+					</a>
+					<div id="overlay" class=" popup-nav">
+						<ul class="nav nav__menu">
+							<li class="menu__item">
+								<a href="index.html" class="nav-textbox nav-textbox--index">
+									<span class="index">INDEX</span>
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="about.html" class="nav-textbox nav-textbox--about">
+									<span class="about">ABOUT</span>
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="#overlayx" class="nav-textbox nav-textbox--portfolio" onclick="toggle2()">
+									<span class="portfolio">PORTFOLIO</span>
+								</a>
+								<ul class="dropdown js-dropdown">
+									<li><a href="interface.html">介面設計</a></li>
+									<li><a href="graphic.html">平面設計</a></li>
+									<li><a href="learning.html">設計學習</a></li>
+								</ul>
+							</li>
+						</ul>
+						<div class="nav-name">
+							<div class="nav-textbox u-ml-196">
+								<span class="project--name">-2021 DESIGN PORTFOLIO-</span>
+							</div>
+						</div>
+						<a href="#!" id="popup-close" class="popup-close" onclick="popupclose()">
+							<span></span>
+							<span></span>
+						</a>
+					</div>
+					<div id="overlayx" class="popup-dropdown">
+						<ul>
+							<li><a href="interface.html">介面設計</a></li>
+							<li><a href="graphic.html">平面設計</a></li>
+							<li><a href="learning.html">設計學習</a></li>
+						</ul>
+						<a href="#overlay" id="popup-close2" class="popup-close2" onclick="popupclose2()">
+							<span></span>
+							<span></span>
+						</a>
+					</div>	
+				</div>
+			</div>
+		</header>	
+		<!--  end  header -->
+		<section class="main">
+			<div class="container">
+				<div class="info">
+					<div class="row u-clearfix">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<h4 class="info__title info__tittle--detail">創意思考</h4>
+						</div>
+					</div>
+					<div class="row u-clearfix u-mb-48">
+						<div class="col-lg-5 col-lg-push-6 col-md-6 col-md-push-6 col-sm-6 col-sm-push-6 col-xs-6 col-xs-push-1 col-xxs-12">
+							<div class="imgbox imgbox--blurbg imgbox-shadow">
+								<a href="images/learning/idea/idea-content-lg--1.jpg" data-fancybox="group">
+									<div class="imgbox-inner img-4-5 imgbox--border">
+										<div class="img imgbox--border" style="background-image: url('images/learning/idea/idea-content--1.jpg');"></div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-6 col-lg-pull-4 col-md-6 col-md-pull-5 col-sm-6 col-sm-pull-5 col-xs-6 col-xs-pull-1 col-xxs-12">
+							<div class="content-item__text u-height u-mb-48">
+								<div class="content-item__text u-height imgbox--blurbg imgbox--border u-pb-24 u-padding-16 u-text-white imgbox-shadow">
+									<h3 class="content-text__title">領養代替購買</h3>
+									<p>以領養代替購買，讓收留所中年紀較大的成狗也有擁有被愛的權利，也讓在外的流浪狗有機會進到收留所中得到被認養的機會。利用戶外常見的欄杆或鐵網與籠子的藍根和鐵網做連結。</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row u-clearfix u-mb-48">
+							<div class="col-lg-6 col-lg-push-1 col-md-6 col-md-push-1 col-sm-6 col-sm-push-1 col-xs-6 col-xs-push-5 col-xxs-12">
+								<div class="imgbox imgbox--blurbg imgbox-shadow">
+									<a href="images/learning/idea/idea-content-lg--2.jpg" data-fancybox="group">
+										<div class="imgbox-inner img-4-6 imgbox--border">
+											<div class="img imgbox--border" style="background-image: url('images/learning/idea/idea-content--2.jpg');"></div>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-lg-6 col-lg-pull-1 col-md-6 col-sm-6 col-xs-6 col-xs-pull-5 col-xxs-12">
+								<div class="content-item__text u-height u-mb-48">
+									<div class="content-item__text u-height imgbox--blurbg imgbox--border u-pb-24 u-padding-16 u-text-white imgbox-shadow">
+										<h3>全球暖化</h3>
+										<p>夏天溫度越來越高，大家越來越習慣開冷氣避暑，但冷氣的高耗電量卻容易造成溫室效應的更加惡化，而變為一個死循環。當冷氣運作一段時間，開始滴水時，北極熊立足的土地也逐漸融化。</p>
+									</div>
+								</div>
+							</div>
+						</div>	
+					</div>
+					<div class="row u-clearfix u-mb-48">
+						<div class="col-lg-5 col-lg-push-6 col-md-6 col-md-push-6 col-sm-6 col-sm-push-6 col-xs-6 col-xs-push-1 col-xxs-12">
+							<div class="imgbox imgbox--blurbg imgbox-shadow">
+								<a href="images/learning/idea/idea-content-lg--3.jpg" data-fancybox="group">
+									<div class="imgbox-inner img-5-7 imgbox--border">
+										<div class="img imgbox--border" style="background-image: url('images/learning/idea/idea-content--3.jpg');"></div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-6 col-lg-pull-4 col-md-6 col-md-pull-5 col-sm-6 col-sm-pull-5 col-xs-6 col-xs-pull-1 col-xxs-12">
+							<div class="content-item__text u-height u-mb-48">
+								<div class="content-item__text u-height imgbox--blurbg imgbox--border u-pb-24 u-padding-16 u-text-white imgbox-shadow">
+									<h3>貧富差距</h3>
+									<p>貧富差距越來越嚴重的情況下，一格停車格的大小，對於有錢人只是一個停車子的空間，但是對於經濟狀況較不好的人而言，卻是一個足以遮風避雨的空間。</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!-- JS -->
+	<script src="js/jQuery v3.6.0.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.fancybox.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+</html>

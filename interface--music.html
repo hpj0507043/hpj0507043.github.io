@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<title>YI-SHUAN - 音樂行動應用</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+	<link rel="icon" type="image/x-icon" href="images/favicon.png" />
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<link rel="stylesheet" href="css/OwlCarousel2-2.2.1/owl.carousel.css">
+	<link rel="stylesheet" href="css/component.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<div class="wrapper">
+		<!-- start bg -->
+		<div class="bgbox">
+			<div class="bg--base"></div>
+			<div id="bg--hover" class="bg"></div>
+			<div class="bg__interface--music"></div>
+		</div>
+				
+		<!-- start header -->
+		<header>
+			<div class="navbar js-navbar">
+				<div class="container">
+					<a href="#overlay" class="menu-toggle" onclick="toggle()">
+						<span></span>
+						<span></span>
+						<span></span>
+					</a>
+					<div id="overlay" class=" popup-nav">
+						<ul class="nav nav__menu">
+							<li class="menu__item">
+								<a href="index.html" class="nav-textbox nav-textbox--index">
+									<span class="index">INDEX</span>
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="about.html" class="nav-textbox nav-textbox--about">
+									<span class="about">ABOUT</span>
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="#overlayx" class="nav-textbox nav-textbox--portfolio" onclick="toggle2()">
+									<span class="portfolio">PORTFOLIO</span>
+								</a>
+								<ul class="dropdown js-dropdown">
+									<li><a href="interface.html">介面設計</a></li>
+									<li><a href="graphic.html">平面設計</a></li>
+									<li><a href="learning.html">設計學習</a></li>
+								</ul>
+							</li>
+						</ul>
+						<div class="nav-name">
+							<div class="nav-textbox u-ml-196">
+								<span class="project--name">-2021 DESIGN PORTFOLIO-</span>
+							</div>
+						</div>
+						<a href="#!" id="popup-close" class="popup-close" onclick="popupclose()">
+							<span></span>
+							<span></span>
+						</a>
+					</div>
+					<div id="overlayx" class="popup-dropdown">
+						<ul>
+							<li><a href="interface.html">介面設計</a></li>
+							<li><a href="graphic.html">平面設計</a></li>
+							<li><a href="learning.html">設計學習</a></li>
+						</ul>
+						<a href="#overlay" id="popup-close2" class="popup-close2" onclick="popupclose2()">
+							<span></span>
+							<span></span>
+						</a>
+					</div>	
+				</div>
+			</div>
+		</header>	
+		<!--  end  header -->
+		<section class="main">
+			<div class="container">
+				<div class="info">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<!-- <h4 class="info__title info__tittle--detail">- INTERFACE 介面設計 -</h4> -->
+							<h4 class="info__title info__tittle--detail">音樂行動應用</h4>
+							<!-- <a href="#" class="info__title info__title--second">- GRAPHIC 平面設計 -</a> -->
+							<div class="info__text">
+								主要以深色調為介面的主色調，並以深綠色為基底，營造出沈浸音樂中的自然風格。以紅藍兩色最為主色和配色，適時強調播放、收藏等重要資訊。資訊著重在使用者如何能快速找到喜愛歌單、歌手或歌曲進行規劃。
+							</div>
+							<div class="info__text u-mt--24">
+								圖片及部分文案，於2021年7月取自KKBOX，作為此次作品練習使用。
+							</div>
+							<div class="video__box video__box--detail">
+								<div class="video">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/45lt_Q4DxqM?autoplay=1&loop=1&playlist=45lt_Q4DxqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<div class="scrolldown-inner">
+								<a href="#content" class="scrolldown-btn scrolldown-btn--content"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="content" class="content lean-bg--top lean-bg--bottom bg-color-white">
+				<div class="container">
+					<div class="content-list">
+						<div id="content" class="content-item">
+							<div class="row u-img-space--2 u-img-space-lg--2 u-clearfix">
+								<div class="col-lg-6 col-lg-push-1 col-md-6 col-md-push-1 col-sm-6 col-sm-push-1 col-xs-12 col-xxs-12">
+									<div class="imgbox">
+										<a href="images/interface/music/musicapp-lg____index.png" data-fancybox="group">
+											<div class="imgbox-inner img-4-5">
+												<div class="img img-content" style="background-image: url('images/interface/music/musicapp____index.png');"></div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-lg-4 col-lg-push-1 col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 col-xs-12 col-xxs-12 u-mt-48-info">
+									<div class="content-item__text">
+										<div class="content-item__text">
+											<h3>首頁</h3>
+											<p>依照使用者的使用習慣客製化音樂推薦選單，例如歌單及關注歌手的新作品消息；最後是音樂新聞的相關消息，不過設定使用者能快速找到音樂為首先目的，因此新聞消息會放置最下處。資訊卡以泳道的方式收納資訊，減少頁面長度。</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-2">
+									<div class="scrollup-inner js-scrollup">
+										<a href="#" class="scrollup-btn"></a>
+									</div>
+								</div>
+							</div>
+							<div class="row u-img-space--2">
+								<div class="col-lg-6 col-lg-push-1 col-md-6 col-md-push-1 col-sm-6 col-sm-push-1 col-xs-12 col-xxs-12">
+									<div class="imgbox">
+										<a href="images/interface/music/musicapp-lg____search.png" data-fancybox="group">
+											<div class="imgbox-inner img-4-5">
+												<div class="img img-content" style="background-image: url('images/interface/music/musicapp____search.png');"></div>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-lg-4 col-lg-push-1 col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 col-xs-12 col-xxs-12 u-mt-48-info">
+									<div class="content-item__text ">
+										<div class="content-item__text">
+											<h3>搜尋</h3>
+											<p>除了文字輸入搜尋，提供近期和熱門搜尋關鍵詞，提高使用性。搜尋內容針對搜尋詞進行歌手、歌曲、專輯和歌單分類呈現；並針對搜尋結果提供一個最佳化搜尋結果。</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row u-img-space--2">
+								<div class="col-lg-6 col-lg-push-1 col-md-6 col-md-push-1 col-sm-6 col-sm-push-1 col-xs-12 col-xxs-12">
+									<div class="imgbox">
+										<a href="images/interface/music/musicapp-lg____charts.png" data-fancybox="group">
+											<div class="imgbox-inner img-4-5">
+												<div class="img img-content" style="background-image: url('images/interface/music/musicapp____charts.png');"></div>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-lg-4 col-lg-push-1 col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 col-xs-12 col-xxs-12 u-mt-48-info">
+									<div class="content-item__text content-item__text--lg">
+										<div class="content-item__text">
+											<h3>排行榜</h3>
+											<p>提供不同曲風的排行榜，包括綜合、華語和西洋等等；針對曲風再進行單曲、新歌和年度的分類。資訊卡的文字欄提供前五名的歌曲資訊，泳道提供前十名的歌曲資訊，讓想瞭解更多的使用者有更多的方式進行瀏覽，提高瀏覽效率。</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row u-img-space--2">
+								<div class="col-lg-6 col-lg-push-1 col-md-6 col-md-push-1 col-sm-6 col-sm-push-1 col-xs-12 col-xxs-12">
+									<div class="imgbox">
+										<a href="images/interface/music/musicapp-lg____new&filter.png" data-fancybox="group">
+											<div class="imgbox-inner img-4-5">
+												<div class="img img-content" style="background-image: url('images/interface/music/musicapp____new&filter.png');"></div>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-lg-4 col-lg-push-1 col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 col-xs-12 col-xxs-12 u-mt-48-info">
+									<div class="content-item__text content-item__text--lg">
+										<div class="content-item__text">
+											<h3>發燒新歌</h3>
+											<p>除了提供所有的發燒新歌之外，也會針對使用者的關注內容，提供相關的資訊消息，例如關注歌手出新歌會第一時間通知使用者。若資訊過於雜亂，使用者也能使用左上角的篩選分類功能，針對特定歌曲進行分類，集中閱讀喜愛的曲風資訊。</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row u-img-space--2">
+								<div class="col-lg-6 col-lg-push-1 col-md-6 col-md-push-1 col-sm-6 col-sm-push-1 col-xs-12 col-xxs-12">
+									<div class="imgbox">
+										<a href="images/interface/music/musicapp-lg____songslist.png" data-fancybox="group">
+											<div class="imgbox-inner img-4-5">
+												<div class="img img-content" style="background-image: url('images/interface/music/musicapp____songslist.png');"></div>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-lg-4 col-lg-push-1 col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 col-xs-12 col-xxs-12 u-mt-48-info">
+									<div class="content-item__text content-item__text--lg">
+										<div class="content-item__text">
+											<h3>歌單</h3>
+											<p>點擊資訊卡後，進到歌單頁面。除了歌單的歌曲內容外，也提供播放、收藏選項、搜尋和排列的選項。頁面往下滑後，則會變成浮動欄，增加瀏覽畫面；若只對某首歌有興趣，也能點擊按鈕或的更多歌曲的更多資訊。</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row u-img-space--2">
+								<div class="col-lg-6 col-lg-push-1 col-md-6 col-md-push-1 col-sm-6 col-sm-push-1 col-xs-12 col-xxs-12">
+									<div class="imgbox">
+										<a href="images/interface/music/musicapp-lg____togetherlist.png" data-fancybox="group">
+											<div class="imgbox-inner img-4-5">
+												<div class="img img-content" style="background-image: url('images/interface/music/musicapp____togetherlist.png');"></div>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-lg-4 col-lg-push-1 col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 col-xs-12 col-xxs-12 u-mt-48-info">
+									<div class="content-item__text content-item__text--lg">
+										<div class="content-item__text">
+											<h3>一起聽</h3>
+											<p>提供線上共聽功能。讓使用者能夠與台主一起分享音樂。把使用者關注的台主或歌手為一個分類，提供即時關注消息。</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row u-img-space--2">
+								<div class="col-lg-6 col-lg-push-1 col-md-6 col-md-push-1 col-sm-6 col-sm-push-1 col-xs-12 col-xxs-12">
+									<div class="imgbox">
+										<a href="images/interface/music/musicapp-lg____togethersinger.png" data-fancybox="group">
+											<div class="imgbox-inner img-4-5">
+												<div class="img img-content" style="background-image: url('images/interface/music/musicapp____togethersinger.png');"></div>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-lg-4 col-lg-push-1 col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 col-xs-12 col-xxs-12 u-mt-48-info">
+									<div class="content-item__text content-item__text--lg">
+										<div class="content-item__text u-mt-info">
+											<h3>一起聽歌台</h3>
+											<p>提供台主的播放紀錄，讓使用者快速了解歌台的歌曲風格。也能觀看台主其他的珍藏歌單，找尋適合自己的歌單。</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row u-img-space--2">
+								<div class="col-lg-6 col-lg-push-1 col-md-6 col-md-push-1 col-sm-6 col-sm-push-1 col-xs-12 col-xxs-12">
+									<div class="imgbox">
+										<a href="images/interface/music/musicapp-lg____my--singer.png" data-fancybox="group">
+											<div class="imgbox-inner img-4-5">
+												<div class="img img-content" style="background-image: url('images/interface/music/musicapp____my--singer.png');"></div>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-lg-4 col-lg-push-1 col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 col-xs-12 col-xxs-12 u-mt-48-info">
+									<div class="content-item__text content-item__text--lg">
+										<div class="content-item__text">
+											<h3>我的關注</h3>
+											<p>在我的選單中，能找查詢之前所收藏和關注的內容，再進行一次篩選資訊和查詢內容。關注中也按照前期的資訊規劃分成名人歌手和一起聽台主。</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row u-img-space--2">
+								<div class="col-lg-6 col-lg-push-1 col-md-6 col-md-push-1 col-sm-6 col-sm-push-1 col-xs-12 col-xxs-12">
+									<div class="imgbox">
+										<a href="images/interface/music/musicapp-lg____my--loveinfo.png" data-fancybox="group">
+											<div class="imgbox-inner img-4-5">
+												<div class="img img-content" style="background-image: url('images/interface/music/musicapp____my--loveinfo.png');"></div>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-lg-4 col-lg-push-1 col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 col-xs-12 col-xxs-12 u-mt-48-info">
+									<div class="content-item__text content-item__text--lg">
+										<div class="content-item__text">
+											<h3>我的收藏</h3>
+											<p>收藏也依照資訊規劃分成歌曲、歌單和專輯，並提供歌曲和專輯資訊，讓使用者在此頁面能仔細篩選歌曲。</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row u-img-space--2">
+								<div class="col-lg-6 col-lg-push-1 col-md-6 col-md-push-1 col-sm-6 col-sm-push-1 col-xs-12 col-xxs-12">
+									<div class="imgbox">
+										<a href="images/interface/music/musicapp-lg____my--member.png" data-fancybox="group">
+											<div class="imgbox-inner img-4-5">
+												<div class="img img-content" style="background-image: url('images/interface/music/musicapp____my--member.png');"></div>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-lg-4 col-lg-push-1 col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 col-xs-12 col-xxs-12 u-mt-48-info">
+									<div class="content-item__text content-item__text--lg">
+										<div class="content-item__text">
+											<h3>會員中心</h3>
+											<p>該頁面提供基本資料、訂閱方案、系統設定和線上服務等功能。</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row u-img-space--2">
+								<div class="col-lg-6 col-lg-push-1 col-md-6 col-md-push-1 col-sm-6 col-sm-push-1 col-xs-12 col-xxs-12">
+									<div class="imgbox">
+										<a href="images/interface/music/musicapp-lg____player.png" data-fancybox="group">
+											<div class="imgbox-inner img-4-5">
+												<div class="img img-content" style="background-image: url('images/interface/music/musicapp____player.png');"></div>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-lg-4 col-lg-push-1 col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 col-xs-12 col-xxs-12 u-mb-80 u-mt-48-info">
+									<div class="content-item__text content-item__text--lg">
+										<div class="content-item__text">
+											<h3>音樂播放器</h3>
+											<p>歌單頁面點擊歌曲都能馬上播放該歌曲，並且會在菜單欄上方出現浮動提示欄，讓消費者在每個頁面都能知道歌曲資訊，也能點擊該欄進到音樂播放器中，更改播放模式或歌曲；也能點擊菜單欄中的音樂，進到現正播放的頁面，了解現在播放的歌單資訊，或是回到音樂庫更改播放歌單。</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+			
+
+		<!--  end  bg -->
+
+
+
+		
+	</div>
+
+	<!-- JS -->
+	<script src="js/jQuery v3.6.0.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.fancybox.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+</html>

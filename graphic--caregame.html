@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<title>YI-SHUAN - 輔助失智症復健遊戲</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+	<link rel="icon" type="image/x-icon" href="images/favicon.png" />
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<link rel="stylesheet" href="css/OwlCarousel2-2.2.1/owl.carousel.css">
+	<link rel="stylesheet" href="css/component.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<div class="wrapper">
+		<!-- start bg -->
+		<div class="bgbox">
+			<div class="bg--base"></div>
+			<div id="bg--hover" class="bg"></div>
+		</div>
+				
+		<!-- start header -->
+		<header>
+			<div class="navbar js-navbar">
+				<div class="container">
+					<a href="#overlay" class="menu-toggle" onclick="toggle()">
+						<span></span>
+						<span></span>
+						<span></span>
+					</a>
+					<div id="overlay" class=" popup-nav">
+						<ul class="nav nav__menu">
+							<li class="menu__item">
+								<a href="index.html" class="nav-textbox nav-textbox--index">
+									<span class="index">INDEX</span>
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="about.html" class="nav-textbox nav-textbox--about">
+									<span class="about">ABOUT</span>
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="#overlayx" class="nav-textbox nav-textbox--portfolio" onclick="toggle2()">
+									<span class="portfolio">PORTFOLIO</span>
+								</a>
+								<ul class="dropdown js-dropdown">
+									<li><a href="interface.html">介面設計</a></li>
+									<li><a href="graphic.html">平面設計</a></li>
+									<li><a href="learning.html">設計學習</a></li>
+								</ul>
+							</li>
+						</ul>
+						<div class="nav-name">
+							<div class="nav-textbox u-ml-196">
+								<span class="project--name">-2021 DESIGN PORTFOLIO-</span>
+							</div>
+						</div>
+						<a href="#!" id="popup-close" class="popup-close" onclick="popupclose()">
+							<span></span>
+							<span></span>
+						</a>
+					</div>
+					<div id="overlayx" class="popup-dropdown">
+						<ul>
+							<li><a href="interface.html">介面設計</a></li>
+							<li><a href="graphic.html">平面設計</a></li>
+							<li><a href="learning.html">設計學習</a></li>
+						</ul>
+						<a href="#overlay" id="popup-close2" class="popup-close2" onclick="popupclose2()">
+							<span></span>
+							<span></span>
+						</a>
+					</div>	
+				</div>
+			</div>
+		</header>	
+		<!--  end  header -->
+		<section class="main">
+			<div class="container">
+				<div class="info">
+					<div class="row u-mt-48">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<h4 class="info__title info__tittle--detail">輔助失智症復健遊戲</h4>
+							<div class="info__text u-pb-24">
+								在此專案主要負責規劃遊戲 / 玩具設計 / 使用者測試 / 後期改良。
+							</div>
+							<div class="info__text u-mb-8">
+								結合大富翁的遊戲方式、長者時代背景的台鐵路線和時事。透過遊戲與長者互動各個地方的時事背景和玩具，鼓勵長者主動分享以前的故事和動手操作遊戲，以達到長者願意動腦思考回憶和主動分享之目的。
+							</div>
+						</div>
+						<div class="col-lg-6  col-md-6 col-sm-6 col-xs-12">
+							<div class="imgbox">
+								<a href="images/graphic/caregame/caregame-content-lg--1.png" data-fancybox="group">
+									<div class="imgbox-inner img-4-6">
+										<div class="img img-content" style="background-image: url('images/graphic/caregame/caregame-content--1.png');"></div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="row u-mt-48">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<h4 class="info__title info__tittle--detail">使用者測試</h4>
+							<div class="info__text u-pb-24">
+								當長者走到以前有去過的地方或是有經驗的話題時，長者們很願意分享和互動，在評估中也成功達成老人們彼此聊天的預期效果。
+							</div>
+							<div class="info__text u-mb-8">
+								懷舊元素在評估過程中有成功與長者聊天互動。也有長者因為某些特定的元素而主動與主持人互動，像是長者因為住在斗六，而會主動跟主持人互動。
+							</div>
+						</div>
+						<div class="col-lg-6  col-md-6 col-sm-6 col-xs-12">
+							<div class="imgbox imgbox--border--lg">
+								<a href="images/graphic/caregame/caregame-content-lg--2.jpg" data-fancybox="group">
+									<div class="imgbox-inner img-4-6">
+										<div class="img img--border--lg" style="background-image: url('images/graphic/caregame/caregame-content--2.jpg');"></div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="u-height-96"></div>
+		</section>
+	</div>
+
+	<!-- JS -->
+	<script src="js/jQuery v3.6.0.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.fancybox.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+</html>

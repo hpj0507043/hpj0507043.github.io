@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<title>YI-SHUAN - INTERFACE</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+	<link rel="icon" type="image/x-icon" href="images/favicon.png" />
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<link rel="stylesheet" href="css/OwlCarousel2-2.2.1/owl.carousel.css">
+	<link rel="stylesheet" href="css/component.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<div class="wrapper">
+		<!-- start bg -->
+		<div class="bgbox">
+			<div class="bg--base"></div>
+			<div id="bg--hover" class="bg"></div>
+		</div>
+		<!-- start header -->
+		<header>
+			<div class="navbar js-navbar">
+				<div class="container">
+					<a href="#overlay" class="menu-toggle" onclick="toggle()">
+						<span></span>
+						<span></span>
+						<span></span>
+					</a>
+					<div id="overlay" class=" popup-nav">
+						<ul class="nav nav__menu">
+							<li class="menu__item">
+								<a href="index.html" class="nav-textbox nav-textbox--index">
+									<span class="index">INDEX</span>
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="about.html" class="nav-textbox nav-textbox--about">
+									<span class="about">ABOUT</span>
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="#overlayx" class="nav-textbox nav-textbox--portfolio" onclick="toggle2()">
+									<span class="portfolio">PORTFOLIO</span>
+								</a>
+								<ul class="dropdown">
+									<li><a href="interface.html">介面設計</a></li>
+									<li><a href="graphic.html">平面設計</a></li>
+									<li><a href="learning.html">設計學習</a></li>
+								</ul>
+							</li>
+						</ul>
+						<div class="nav-name">
+							<div class="nav-textbox u-ml-196">
+								<span class="project--name">-2021 DESIGN PORTFOLIO-</span>
+							</div>
+						</div>
+						<a href="#!" id="popup-close" class="popup-close" onclick="popupclose()">
+							<span></span>
+							<span></span>
+						</a>
+					</div>
+					<div id="overlayx" class="popup-dropdown">
+						<ul>
+							<li><a href="interface.html">介面設計</a></li>
+							<li><a href="graphic.html">平面設計</a></li>
+							<li><a href="learning.html">設計學習</a></li>
+						</ul>
+						<a href="#overlay" id="popup-close2" class="popup-close2" onclick="popupclose2()">
+							<span></span>
+							<span></span>
+						</a>
+					</div>	
+				</div>
+			</div>
+		</header>	
+		<!--  end  header -->
+		<section class="main">
+			<div class="container">
+				<div class="info">
+					<div class="row u-clearfix">
+						<div class="col-lg-4 col-md-4">
+							<a href="graphic.html" class="info__title info__title--second u-fl">- GRAPHIC 平面設計 -</a>
+						</div>
+						<div class="col-lg-4 col-lg-push-0 col-md-4 col-sm-12">
+							<h4 class="info__title info__title--primary u-text-center">- INTERFACE 介面設計 -</h4>
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<a href="learning.html" class="info__title info__title--second u-fr">- LEARNING 設計學習 -</a>
+						</div>
+					</div>
+				</div>
+				<div class="thumbnails owl-carousel">
+					<div class="thumbnail">
+						<div class="thumbnail__imgbox">
+							<div class="img" style="background-image: url('images/interface/music/music__index2.png');"></div>
+							<h5 class="thumbnail__title">音樂行動應用</h5>
+						</div>
+						<p class="thumbnail__text">以深綠色為基底和紅藍兩色最為主色和配色，營造出沈浸音樂中的自然風格。資訊著重在能快速找到喜愛歌手或歌曲進行規劃。</p>
+						<div class="btn btn--thumbnails btn--animate"><a href="interface--music.html">觀看專案</a></div>
+						<h2>01</h2>
+					</div>
+					<div class="thumbnail">
+						<div class="thumbnail__imgbox">
+							<div class="img" style="background-image: url('images/interface/thesis/456.jpg');"></div>
+							<h5 class="thumbnail__title">碩士論文創作</h5>
+						</div>
+						<p class="thumbnail__text">單一商城行動購物如何設計介面和資訊規劃，提供良好的使用性和美觀簡潔的介面，為本論文研究的初心。</p>
+						<div class="btn btn--thumbnails btn--animate"><a href="interface--thesis.html">觀看專案</a></div>
+						<h2>02</h2>
+					</div>
+					<div class="thumbnail">
+						<div class="thumbnail__imgbox">
+							<div class="img" style="background-image: url('images/interface/college/123.jpg');"></div>
+							<h5 class="thumbnail__title">專題製作</h5>
+						</div>
+						<p class="thumbnail__text">整合型行動購物的資訊比單一商城繁雜，需有完整的資訊規劃，更要保持簡潔的介面，為此專案的設計目標。</p>
+						<div class="btn btn--thumbnails btn--animate"><a href="interface--college.html">觀看專案</a></div>
+						<h2>03</h2>
+					</div>
+					<div class="thumbnail">
+						<div class="thumbnail__imgbox">
+							<div class="img" style="background-image: url('images/interface/portfolio/portfolio-index.jpg');"></div>
+							<h5 class="thumbnail__title">2021 DESIGN PORTFOLIO</h5>
+						</div>
+						<p class="thumbnail__text">學習前端的線上課程，把撰寫程式碼的能力往上提升，也藉此更了解前端設計師如何思考網頁和架構。</p>
+						<div class="btn btn--thumbnails btn--animate"><a href="interface--portfolio.html">觀看專案</a></div>
+						<h2>04</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!-- JS -->
+	<script src="js/jQuery v3.6.0.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+</html>
