@@ -206,10 +206,6 @@
         left: 50%;
         transform: translate(-50%,-50%);
     }
-    .popup-nav ul > li > a{
-        margin-top: 15%;
-
-    }
     .nav-name{
         opacity: 0;
         visibility: hidden;
@@ -542,6 +538,12 @@
         margin-bottom: 12px;
     }
 }
+@media (max-width: 991px){
+    .scrolldown-inner--filter{
+        display: none;
+    }
+}
+
 
 /*interface-thesis*/
 @media (max-width: 1200px){
