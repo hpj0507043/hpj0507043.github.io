@@ -1155,6 +1155,27 @@ header{
     background-color: #0097C6;
     color: #fff;
 }
+.btn--thesis{
+    width: 75%;
+    position: absolute;
+    top: 75vh;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+}
+.btn--thesis:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ff0000;
+}
+.btn--thesis:hover.btn--thesis:before{
+    width: 120%;
+    padding-top: 120%;
+    transition: all 1s;
+}
 
 .u-no-pointer{
     pointer-events: none;
