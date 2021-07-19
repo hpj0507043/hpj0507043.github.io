@@ -891,6 +891,11 @@
         height: 80px;
     }
 }
+@media (max-width: 768px){
+    .thumbnail__imgbox .img{
+        filter: blur(0px);
+    }
+}
 
 
 @media (max-width: 993px) and (min-width: 768px){
