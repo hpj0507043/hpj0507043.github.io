@@ -52,13 +52,14 @@ $(document).ready(function(){
 
   $('.owl-carousel').owlCarousel({
       loop:true,
-      margin:16,
+      margin:12,
       nav:true,
       navText:[],
-      dots: false,
+      dots: true,
       responsive:{
           0:{
               items:1
+
           },
           600:{
               items:2
@@ -71,6 +72,7 @@ $(document).ready(function(){
           }
       }
     })
+
 
 
   $('#design-categorys--one').mouseenter(function(){
