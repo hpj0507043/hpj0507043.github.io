@@ -411,6 +411,13 @@
         font-size: 32px;
         top: 136px;
     }
+    .timeline-card__text--box1 p{
+        position: relative;
+        display: block;
+        float: none;
+        left: 0;
+        transform: translateX(0);
+    }
 }
 
 @media (max-width: 992px) and (min-width: 769px){

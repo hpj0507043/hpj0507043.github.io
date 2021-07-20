@@ -893,6 +893,17 @@ header{
 .timeline-card__text--box2 h4{
     margin-top: 24px;
 }
+.timeline-card__text p,
+.timeline-card__text--box1 p,
+.timeline-card__text--box2 p{
+    margin: 8px 0;
+    line-height: 28px;
+}
+.timeline-card__text .u-mb--0,
+.timeline-card__text--box1 .u-mb--0,
+.timeline-card__text--box2 .u-mb--0{
+    margin-bottom: 0;
+}
 .u-fl{
     float: left;
 }
@@ -1163,6 +1174,7 @@ header{
     transform: translateX(-50%);
     z-index: 5;
 }
+
 .btn--thesis:before{
     content: "";
     position: absolute;
