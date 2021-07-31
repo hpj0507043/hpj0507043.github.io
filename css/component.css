@@ -698,6 +698,9 @@ header{
 .img-6-5{
     padding-top: calc(100% * 6 / 5 );
 }
+.img-6-7{
+    padding-top: calc(100% * 6 / 7 );
+}
 .img-7-5{
     padding-top: calc(100% * 7 / 5 );
 }
@@ -729,6 +732,10 @@ header{
     border-radius: 30px;
     /*border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 */    /*border-right: 1px solid rgba(255, 255, 255, 0.1);*/
+}
+.img--90{
+    width: 90%;
+    height: 90%;
 }
 .img--yuntech{
     background-position: top;
@@ -1241,7 +1248,8 @@ header{
     letter-spacing: 1px;
     margin-bottom: 32px;
 }
-.info__title--second{
+.info__title--second,
+.info__title--fotter{
     display: block;
     margin-top: 18px;
     font-size: 16px;
@@ -1252,7 +1260,8 @@ header{
     margin-bottom: 0px;
 }
 
-.info__title--second:hover{
+.info__title--second:hover,
+.info__title--fotter:hover{
     font-size: 20px;
     opacity: 0.7;
     margin-top: 14px;
@@ -1279,6 +1288,9 @@ header{
 }
 .u-pb-16{
     padding-bottom: 16px;
+}
+.u-mb-0{
+    margin-bottom: 0;
 }
 .u-mb-16{
     margin-bottom: 16px;
@@ -1522,6 +1534,16 @@ header{
     background-position: center;
     background-size: cover;
 }
+.bg__interface--sleep{
+    width: 70%;
+    height: 102.5vh;
+    background-image: url('../images/interface/sleep/sleep--index.png');
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-position: center;
+    background-size: cover;
+}
 .bg__graphic--box{
     width: 70%;
     height: 102.5vh;
@@ -1671,7 +1693,9 @@ header{
 .u-img-space--2{
     margin-bottom: 120px;
 }
-
+.u-mb-96{
+    margin-bottom: 96px;
+}
 .u-mb-152{
     margin-bottom: 152px;
 }
@@ -2125,5 +2149,13 @@ button{
 .u-pt-48{
     padding-top: 48px;
 }
-
-
+.u-786-on{
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+}
+.u-786-off{
+    opacity: 1;
+    visibility: visible;
+    display: block;
+}

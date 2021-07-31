@@ -22,7 +22,8 @@
     .bg__graphic--box,
     .bg__interface--portfolio,
     .bg-landscapeimage,
-    .bg__interface--music{
+    .bg__interface--music,
+    .bg__interface--sleep{
         opacity: 0.4;
     }
 }
@@ -37,7 +38,8 @@
     .bg__interface--portfolio,
     .bg__graphic--box,
     .bg-landscapeimage,
-    .bg__interface--music{
+    .bg__interface--music,
+    .bg__interface--sleep{
         width: 100%;
     }
     .bg-landscapeimage:after{
@@ -646,6 +648,16 @@
     }
     .backspace{
         bottom: -40%;
+    }
+    .u-786-on{
+        opacity: 1;
+        visibility: visible;
+        display: block;
+    }
+    .u-786-off{
+        opacity: 0;
+        visibility: hidden;
+        display: none;
     }
 
 } 
